@@ -34,8 +34,8 @@ The application should include a user interface that is easy to use and responsi
 The application should have a search functionality that allows librarians to search for books by title, author, or ISBN. 
 
 
-
-How to build this application:
+----------------------------------------------------------------------------------------------------------------------------------------
+# How to build this application:
 1) Create spring project with dependencies (And you can see this dependencies in pom.xml file)
 2) Create new package "modules" and 2 java files "Book" and "Borrower" inside it 
 3) Inside "Book" class in "Book" file, add required fields (instance variables) -> id (Long)/title,author,publisher,ISBN (String) 
@@ -75,7 +75,7 @@ Then create Set<Book> (with HashSet initializing) and generate two constructors 
 
 
 
-
-How to run the application :
+----------------------------------------------------------------------------------------------------------------------------------------
+# How to run the application :
 go to (http://localhost:8080/books) to see the book list and move from navigation bar to see borrower list or by (http://localhost:8080/borrowers)
 go to (http://localhost:8080/h2) with URL:(jdbc:h2:mem:test) to see the tables : BOOK, BORROWER, and BOOK_BORROWER
